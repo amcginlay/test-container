@@ -1,6 +1,4 @@
-<?php
-$pick = array("SERVER_PROTOCOL", "REQUEST_URI", "SCRIPT_NAME", "HTTP_HOST");
-?>
+<?php $pick = array("SERVER_PROTOCOL", "REQUEST_URI", "SCRIPT_NAME", "HTTP_HOST"); ?>
 <!DOCTYPE html>
 <html>
   <head>
