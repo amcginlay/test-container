@@ -1,5 +1,8 @@
 # test-container
 
 ```
-docker build --tag test-container:1.0.0 .
+docker build --tag amcginlay/test-container:1.0.0 .
+
+docker login
+docker push amcginlay/test-container:1.0.0
 ```
