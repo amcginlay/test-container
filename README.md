@@ -1,8 +1,8 @@
 # test-container
 
 ```
-docker build --tag amcginlay/test-container:1.0.0 .
+docker build --platform=linux/amd64 --tag amcginlay/test-container:1.0.0 .
 
 docker login
-docker push amcginlay/test-container:1.0.0
+docker push --platform=linux/amd64 amcginlay/test-container:1.0.0
 ```
