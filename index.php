@@ -6,9 +6,9 @@
   </head>
   <body>
     <?php foreach ($_SERVER as $key => $value) { if (in_array($key, $pick)) { ?>
-        <div>
-          <p><?php echo $key.': '.$value; ?></p>
-        </div>
+    <div>
+      <p><?php echo $key.': '.$value; ?></p>
+    </div>
     <?php } } ?>
   </body>
 </html>
